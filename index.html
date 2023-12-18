@@ -16,16 +16,59 @@
 </head>
 
 <body>
-<header class="container">
-    <img src="img/logo1.jpeg" alt="imagen-logo" width="100px">
-    <ul>
-        <li><a href="#">Inicio</a></li>
-        <li><a href="#">nav1</a></li>
-        <li><a href="#">nav2</a></li>
-        <li><a href="#">nav3</a></li>
-    </ul>
-</header>
+    <header class="container">
+        <img src="img/logo1.jpeg" alt="imagen-logo" width="100px">
+        <ul>
+            <li><a href="#">Inicio</a></li>
+            <li><a href="#">nav1</a></li>
+            <li><a href="#">nav2</a></li>
+            <li><a href="#">nav3</a></li>
+        </ul>
+    </header>
+    <div class="container">
+        <div class="logo">
+            <img src="/img/logo2.jpeg" height="100px" alt="Logo">
+        </div>
+        <div class="nav">
+            <div class="nav-item">
+                <a href="#" class="nav-link">Inicio</a>
+                <a href="#" class="nav-link">Tutoriales</a>
+                <a href="#" class="nav-link">Cursos</a>
+                <a href="#" class="nav-link">Contacto</a>
+            </div>
+        </div>
+    </div>
 
+    <div class="container">
+        <h1>Carrito de compras online con estilo de altavoz o auricular</h1>
+        <div class="product-list">
+            <div class="product-item">
+                <img class="product-image" src="altavoz1.jpg" alt="Altavoz Bluetooth">
+                <p class="product-name">Altavoz Bluetooth</p>
+                <p class="product-price">29,99 €</p>
+                <a class="product-button" href="#"
+                    onclick="addToCart({id: 1, name: 'Altavoz Bluetooth', price: 29.99, image: 'altavoz1.jpg'})">Añadir
+                    al carrito</a>
+            </div>
+            <div class="product-item">
+                <img class="product-image" src="altavoz2.jpg" alt="Altavoz Inalámbrico">
+                <p class="product-name">Altavoz Inalámbrico</p>
+                <p class="product-price">39,99 €</p>
+                <a class="product-button" href="#"
+                    onclick="addToCart({id: 2, name: 'Altavoz Inalámbrico', price: 39.99, image: 'altavoz2.jpg'})">Añadir
+                    al carrito</a>
+            </div>
+            <div class="product-item">
+                <img class="product-image" src="auricular1.jpg" alt="Auricular Bluetooth">
+                <p class="product-name">Auricular Bluetooth</p>
+                <p class="product-price">26.99 €</p>
+                <a class="product-button" href="#"
+                    onclick="addToCart({id: 2, name: 'Altavoz Inalámbrico', price: 39.99, image: 'altavoz2.jpg'})">Añadir
+                    al carrito</a>
+            </div>
+        </div>
+        
+    </div>
 
 </body>
 
