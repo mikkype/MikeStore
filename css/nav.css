@@ -1,0 +1,30 @@
+/* barra navegador */
+.navbar{
+    padding: 2rem;
+    background-color: #f5f6f7;
+}
+.navbar-collapse{
+    align-items:center;
+    justify-content:right;
+}
+.icon-cart{
+    position: relative;
+    display: inline-block;
+}
+.icon-cart img{
+    width: 50px;
+    position: relative;
+}
+.icon-cart span{
+    display: flex;
+    width: 20px;
+    height: 20px;
+    justify-content: center;
+    align-items: center;
+    background-color: red;
+    color:#fff;
+    border-radius: 50%;
+    position: absolute;
+    bottom:-5px;
+    right: -10px;
+}
