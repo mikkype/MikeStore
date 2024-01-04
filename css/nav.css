@@ -1,6 +1,6 @@
 /* barra navegador */
 .navbar{
-    padding: 2rem;
+   
     background-color: #f5f6f7;
 }
 .navbar-collapse{
@@ -12,7 +12,7 @@
     display: inline-block;
 }
 .icon-cart img{
-    width: 50px;
+    width: 30px;
     position: relative;
 }
 .icon-cart span{
@@ -25,6 +25,6 @@
     color:#fff;
     border-radius: 50%;
     position: absolute;
-    bottom:-5px;
+    bottom:20px;
     right: -10px;
 }

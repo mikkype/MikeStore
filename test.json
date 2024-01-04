@@ -1,0 +1,94 @@
+{
+    "jbl": [
+        {
+            "nombre": "JBL Tune 110 ",
+            "tipo": "Auriculares in-ear con cable",
+            "descripcion": [
+                "Sonido Pure Bass",
+                "Control remoto con micrófono con un solo botón",
+                "Cable plano sin enredos",
+                "Conector de 3.5 mm"
+            ],
+            "precio": "7.99 €",
+            "imagen": "../test/jbl_tune110_blanco.png",
+            "categoria": "cable",
+            "modelo": "t110"
+        },
+        {
+            "nombre": "JBL Tune 500",
+            "tipo": " Auriculares on-ear con cable",
+            "descripcion": [
+                "Sonido Pure Bass",
+                "Control remoto con micrófono con un solo botón",
+                "Diseño ligero y plegable",
+                "Cable plano sin enredos",
+                "Conector de 3.5 mm"
+            ],
+            "precio": "20.00 €",
+            "imagen": "../test/jbl_tune500_azul.png",
+            "categoria": "cable",
+            "modelo": "t500"
+        },
+        {
+            "nombre": "JBL Tune 520BT",
+            "tipo": "Auriculares on-ear inalámbricos",
+            "descripcion": [
+                "Sonido Pure Bass",
+                "Bluetooth 5.3 sin pérdida de calidad",
+                "Batería de 57 horas con carga rápida (5 minutos = 3 horas)",
+                "Conexión multipunto",
+                "Llamadas telefónicas manos libres",
+                "Diseño ligero y plegable"
+            ],
+            "precio": "30.00 €",
+            "imagen": "../test/jbl_tune520bt_blanco.png",
+            "categoria": "bluetooth",
+            "modelo": "t520bt"
+        },
+        {
+            "nombre": "JBL Tune 230NC TWS ",
+            "tipo": " Auriculares in-ear buds inalámbricos",
+            "descripcion": [
+                "Cancelación de ruido activa",
+                "Diseño cómodo True Wireless",
+                "Bluetooth 5.0 sin pérdida de calidad",
+                "Batería de 40 horas"
+            ],
+            "precio": "40.00 €",
+            "imagen": "../test/jbl_tune230nc_negrobuds.png",
+            "categoria": "bluetooth",
+            "modelo": "t230nc"
+        },
+        {
+            "nombre": "JBL Charge5",
+            "tipo": " Altavoz portátil inalámbrico",
+            "descripcion": [
+                "Conexión Bluetooth hasta 2 teléfonos móviles",
+                "Sonido JBL Original Pro Potencia de salida de 40W",
+                "Batería integrada de 20 horas",
+                "Resistente al agua y polvo"
+            ],
+            "precio": "50.00 €",
+            "imagen": "../test/jbl_charge5_rosa.png",
+            "categoria": "altavoces",
+            "modelo": "charge5"
+        },
+        {
+            "nombre": "Sony SRS-XG300 ",
+            "tipo": " Altavoz portátil inalámbrico ",
+            "descripcion": [
+                "Sonido graves Mega Bass",
+                "Conexión Bluetooth",
+                "Diseño de asa plegable",
+                "Iluminación led multicolor",
+                "Potencia de salida de 16W",
+                "Resistente al agua y polvo",
+                "Batería de 25 horas Llamadas con manos libres"
+            ],
+            "precio": "60.00 €",
+            "imagen": "../test/sony_xg300_negro.avif",
+            "categoria": "altavoces",
+            "modelo": "xg300"
+        }
+    ]
+}

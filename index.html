@@ -19,8 +19,8 @@
   <!-- navegador -->
   <nav class="navbar navbar-expand-md">
     <div class="container-fluid">
-      <img src="img/logo1.jpeg" width="50px" alt="">
-      <a class="navbar-brand" href="#"></a>
+
+      <a class="navbar-brand" href="index.html"></a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
         aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -42,9 +42,12 @@
         </ul>
         <form class="d-flex" role="search">
           <input class="form-control me-2" type="search" placeholder="buscar" aria-label="Search">
-          <button class="btn btn-outline-success" type="submit">Search</button>
+
+          <button class="btn btn-outline-success" type="submit">
+            <img src="img/search.png" width="20px" alt=""></button>
+
         </form>
-        <div class="icon-cart">
+        <div class="icon-cart m-2">
           <img src="img/shopping-cart.png" alt="">
           <span class="quantity">0</span>
         </div>
@@ -53,7 +56,8 @@
   <!-- carousel -->
   <div id="carousel-web" class="carousel slide" data-bs-ride="carousel">
     <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carousel-web" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#carousel-web" data-bs-slide-to="0" class="active" aria-current="true"
+        aria-label="Slide 1"></button>
       <button type="button" data-bs-target="#carousel-web" data-bs-slide-to="1" aria-label="Slide 2"></button>
       <button type="button" data-bs-target="#carousel-web" data-bs-slide-to="2" aria-label="Slide 3"></button>
     </div>
@@ -77,8 +81,18 @@
       <span class="visually-hidden">Next</span>
     </button>
   </div>
+ 
+
+  <!-- card dinamico test -->
+  <div class="container">
+    <div class="row" id="cardContainer">
+      <!-- Las tarjetas se agregarán aquí dinámicamente -->
+    </div>
+  </div>
+
   <!-- footer -->
-  <footer class="container container-footer p-2">
+
+  <footer class="container container-footer">
     <div class="row row-footer">
       <div class="col-12 col-md-4">
         <p class="h3">footer1</p>
@@ -112,7 +126,6 @@
     </div>
 
   </footer>
-
 </body>
 
 </html>
