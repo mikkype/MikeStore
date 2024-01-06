@@ -6,10 +6,9 @@
             "descripcion": [
                 "Sonido Pure Bass",
                 "Control remoto con micrófono con un solo botón",
-                "Cable plano sin enredos",
-                "Conector de 3.5 mm"
+                "Cable plano sin enredos"
             ],
-            "precio": "7.99 €",
+            "precio": "8.00 €",
             "imagen": "../test/jbl_tune110_blanco.png",
             "categoria": "cable",
             "modelo": "t110"
@@ -20,9 +19,7 @@
             "descripcion": [
                 "Sonido Pure Bass",
                 "Control remoto con micrófono con un solo botón",
-                "Diseño ligero y plegable",
-                "Cable plano sin enredos",
-                "Conector de 3.5 mm"
+                "Diseño ligero y plegable"
             ],
             "precio": "20.00 €",
             "imagen": "../test/jbl_tune500_azul.png",
@@ -35,10 +32,7 @@
             "descripcion": [
                 "Sonido Pure Bass",
                 "Bluetooth 5.3 sin pérdida de calidad",
-                "Batería de 57 horas con carga rápida (5 minutos = 3 horas)",
-                "Conexión multipunto",
-                "Llamadas telefónicas manos libres",
-                "Diseño ligero y plegable"
+                "Batería de 57 horas con carga rápida (5 minutos = 3 horas)"
             ],
             "precio": "30.00 €",
             "imagen": "../test/jbl_tune520bt_blanco.png",
@@ -51,8 +45,7 @@
             "descripcion": [
                 "Cancelación de ruido activa",
                 "Diseño cómodo True Wireless",
-                "Bluetooth 5.0 sin pérdida de calidad",
-                "Batería de 40 horas"
+                "Bluetooth 5.0 sin pérdida de calidad"
             ],
             "precio": "40.00 €",
             "imagen": "../test/jbl_tune230nc_negrobuds.png",
@@ -65,8 +58,7 @@
             "descripcion": [
                 "Conexión Bluetooth hasta 2 teléfonos móviles",
                 "Sonido JBL Original Pro Potencia de salida de 40W",
-                "Batería integrada de 20 horas",
-                "Resistente al agua y polvo"
+                "Batería integrada de 20 horas"
             ],
             "precio": "50.00 €",
             "imagen": "../test/jbl_charge5_rosa.png",
@@ -74,21 +66,17 @@
             "modelo": "charge5"
         },
         {
-            "nombre": "Sony SRS-XG300 ",
-            "tipo": " Altavoz portátil inalámbrico ",
+            "nombre": "JBL Tuner 2",
+            "tipo": "Altavoz portatil inalambrico",
             "descripcion": [
-                "Sonido graves Mega Bass",
-                "Conexión Bluetooth",
-                "Diseño de asa plegable",
-                "Iluminación led multicolor",
-                "Potencia de salida de 16W",
-                "Resistente al agua y polvo",
-                "Batería de 25 horas Llamadas con manos libres"
+                "Sintonizador de Radio FM DAB+ 5 botones de presintonía ",
+                "Sonido JBL Original Pro",
+                "Potencia de salida de 5W "
             ],
             "precio": "60.00 €",
-            "imagen": "../test/sony_xg300_negro.avif",
+            "imagen": "../test/tuner2_blanco.png",
             "categoria": "altavoces",
-            "modelo": "xg300"
+            "modelo": "tuner2"
         }
     ]
 }
