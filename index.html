@@ -17,10 +17,12 @@
 
 <body>
   <!-- navegador -->
-  <nav class="navbar navbar-expand-md">
+  <nav class="navbar navbar-expand-sm">
     <div class="container-fluid">
-
-      <a class="navbar-brand" href="index.html"></a>
+      <a class="navbar-brand" href="index.html">
+        <img src="img/logo2.jpeg" width="50px">
+        Audio Store
+      </a>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbar-toggler"
         aria-controls="navbar-toggler" aria-expanded="false" aria-label="Toggle navigation">
         <span class="navbar-toggler-icon"></span>
@@ -30,58 +32,114 @@
           <li class="nav-item">
             <a class="nav-link active" aria-current="page" href="#">Inicio</a>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link2</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Auriculares
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Bluetooth/a>
+                <a class="dropdown-item" href="#">Cable</a>
+                <a class="dropdown-item" href="#">Gaming</a>
+                <a class="dropdown-item" href="#">In-ear</a>
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link3</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Altavoces
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Portatiles Bluetooth</a>
+              <a class="dropdown-item" href="#">Radio FM</a>
+
+            </div>
           </li>
-          <li class="nav-item">
-            <a class="nav-link" href="#">Link4</a>
+          <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
+              aria-haspopup="true" aria-expanded="false">
+              Soporte
+            </a>
+            <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+              <a class="dropdown-item" href="#">Compras</a>
+              <a class="dropdown-item" href="#">Pagos</a>
+              <a class="dropdown-item" href="#">FAQ</a>
+            </div>
           </li>
         </ul>
-        <form class="d-flex" role="search">
-          <input class="form-control me-2" type="search" placeholder="buscar" aria-label="Search">
-
-          <button class="btn btn-outline-success" type="submit">
-            <img src="img/search.png" width="20px" alt=""></button>
-
+        <!-- search -->
+        <form class="d-flex ml-auto">
+          <input class="form-control me-2" type="search" aria-label="Search">
+          <button class="btn btn-outline-primary" type="submit">Buscar</button>
         </form>
-        <div class="icon-cart m-2">
+
+        <!-- carrito-icon -->
+        <div class="icon-cart">
           <img src="img/shopping-cart.png" alt="">
           <span class="quantity">0</span>
         </div>
       </div>
+    </div>
+
   </nav>
+  <!--  -->
+
+  <div class="container-fluid">
+    <div class="row">
+        <!-- Primera columna -->
+        <div class="col-md-6" style="height: 450px; background-color: #e0e0e0;">
+            <!-- Contenido de la primera columna -->
+            <h2>Columna 1</h2>
+            <p>Contenido de la columna 1.</p>
+            
+        </div>
+
+        <!-- Segunda columna -->
+        <div class="col-md-6" style="height: 450px; background-color: #c0c0c0;">
+            <!-- Contenido de la segunda columna -->
+            <h2>Columna 2</h2>
+            <p>Contenido de la columna 2.</p>
+        </div>
+    </div>
+</div>
+
+
+
+
+    
+
   <!-- carousel -->
-  <div id="carousel-web" class="carousel slide" data-bs-ride="carousel">
-    <div class="carousel-indicators">
-      <button type="button" data-bs-target="#carousel-web" data-bs-slide-to="0" class="active" aria-current="true"
-        aria-label="Slide 1"></button>
-      <button type="button" data-bs-target="#carousel-web" data-bs-slide-to="1" aria-label="Slide 2"></button>
-      <button type="button" data-bs-target="#carousel-web" data-bs-slide-to="2" aria-label="Slide 3"></button>
+  
+  <div class="container">
+    <div id="carousel-web" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carousel-web" data-bs-slide-to="0" class="active" aria-current="true"
+          aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carousel-web" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carousel-web" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="img/jbl_tune500_expo.png" class="w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/jbl_tune520bt_expo.png" class="w-100" alt="...">
+        </div>
+        <div class="carousel-item">
+          <img src="img/sony_ch520_expo.png" class="w-100" alt="...">
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carousel-web" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carousel-web" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
     </div>
-    <div class="carousel-inner">
-      <div class="carousel-item active">
-        <img src="img/jbl_tune500_expo.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/jbl_tune520bt_expo.png" class="d-block w-100" alt="...">
-      </div>
-      <div class="carousel-item">
-        <img src="img/sony_ch520_expo.png" class="d-block w-100" alt="...">
-      </div>
-    </div>
-    <button class="carousel-control-prev" type="button" data-bs-target="#carousel-web" data-bs-slide="prev">
-      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Previous</span>
-    </button>
-    <button class="carousel-control-next" type="button" data-bs-target="#carousel-web" data-bs-slide="next">
-      <span class="carousel-control-next-icon" aria-hidden="true"></span>
-      <span class="visually-hidden">Next</span>
-    </button>
   </div>
- 
+
 
   <!-- card dinamico test -->
   <div class="container">
