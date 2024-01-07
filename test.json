@@ -8,7 +8,7 @@
                 "Control remoto con micrófono con un solo botón",
                 "Cable plano sin enredos"
             ],
-            "precio": "8.00 €",
+            "precio": "8.00 ",
             "imagen": "../test/jbl_tune110_blanco.png",
             "categoria": "cable",
             "modelo": "t110"
@@ -21,7 +21,7 @@
                 "Control remoto con micrófono con un solo botón",
                 "Diseño ligero y plegable"
             ],
-            "precio": "20.00 €",
+            "precio": "20.00 ",
             "imagen": "../test/jbl_tune500_azul.png",
             "categoria": "cable",
             "modelo": "t500"
@@ -34,7 +34,7 @@
                 "Bluetooth 5.3 sin pérdida de calidad",
                 "Batería de 57 horas con carga rápida (5 minutos = 3 horas)"
             ],
-            "precio": "30.00 €",
+            "precio": "30.00 ",
             "imagen": "../test/jbl_tune520bt_blanco.png",
             "categoria": "bluetooth",
             "modelo": "t520bt"
@@ -47,7 +47,7 @@
                 "Diseño cómodo True Wireless",
                 "Bluetooth 5.0 sin pérdida de calidad"
             ],
-            "precio": "40.00 €",
+            "precio": "40.00 ",
             "imagen": "../test/jbl_tune230nc_negrobuds.png",
             "categoria": "bluetooth",
             "modelo": "t230nc"
@@ -60,7 +60,7 @@
                 "Sonido JBL Original Pro Potencia de salida de 40W",
                 "Batería integrada de 20 horas"
             ],
-            "precio": "50.00 €",
+            "precio": "50.00 ",
             "imagen": "../test/jbl_charge5_rosa.png",
             "categoria": "altavoces",
             "modelo": "charge5"
@@ -73,8 +73,8 @@
                 "Sonido JBL Original Pro",
                 "Potencia de salida de 5W "
             ],
-            "precio": "60.00 €",
-            "imagen": "../test/tuner2_blanco.png",
+            "precio": "60.00",
+            "imagen": "../test/jbl_tuner2_blanco.png",
             "categoria": "altavoces",
             "modelo": "tuner2"
         }
